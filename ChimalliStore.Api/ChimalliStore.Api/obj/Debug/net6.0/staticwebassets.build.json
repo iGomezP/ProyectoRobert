@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ZWVKugdpIXYIzEkLcAXRg7sqJXD1B9LQX40FYK6z3mY=",
+  "Source": "ChimalliStore.Api",
+  "BasePath": "_content/ChimalliStore.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
