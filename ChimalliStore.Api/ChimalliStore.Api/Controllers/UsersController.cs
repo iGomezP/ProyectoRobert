@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ChimalliStore.Api.Context;
+using Microsoft.CodeAnalysis.Scripting;
 
 namespace ChimalliStore.Api.Controllers
 {
@@ -82,13 +83,28 @@ namespace ChimalliStore.Api.Controllers
 
         // POST: api/Users
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPost]
+        //[HttpPost]
+        //public async Task<ActionResult<User>> PostUser(User user)
+        //{
+        //  if (_context.Users == null)
+        //  {
+        //      return Problem("Entity set 'ChimallidbContext.Users'  is null.");
+        //  }
+        //    _context.Users.Add(user);
+        //    await _context.SaveChangesAsync();
+
+        //    return CreatedAtAction("GetUser", new { id = user.UserId }, user);
+        //}
+
+        [HttpPost("/register")]
         public async Task<ActionResult<User>> PostUser(User user)
         {
-          if (_context.Users == null)
-          {
-              return Problem("Entity set 'ChimallidbContext.Users'  is null.");
-          }
+            if (_context.Users == null)
+            {
+                return Problem("Entity set 'ChimallidbContext.Users'  is null.");
+            }
+            var newPassword = HashPassword(user.Password);
+            user.Password = newPassword;
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
 
@@ -118,6 +134,11 @@ namespace ChimalliStore.Api.Controllers
         private bool UserExists(int id)
         {
             return (_context.Users?.Any(e => e.UserId == id)).GetValueOrDefault();
+        }
+        private string HashPassword(string password)
+        {
+            string passwordHash = BCrypt.Net.BCrypt.HashPassword(password);
+            return passwordHash;
         }
     }
 }

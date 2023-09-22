@@ -25,4 +25,5 @@ public partial class Address
 
     public int ObjectStatusId { get; set; }
 
+    //public virtual User User { get; set; } = null!;
 }

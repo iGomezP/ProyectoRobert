@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\devig\\OneDrive\\Documentos\\Robert\\ChimalliStore.Api\\ChimalliStore.Api\\ChimalliStore.Api.csproj": {}
+    "C:\\Users\\rob\\Documents\\Cursos\\C Sharp\\ProyectoRobert\\ChimalliStore.Api\\ChimalliStore.Api\\ChimalliStore.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\devig\\OneDrive\\Documentos\\Robert\\ChimalliStore.Api\\ChimalliStore.Api\\ChimalliStore.Api.csproj": {
+    "C:\\Users\\rob\\Documents\\Cursos\\C Sharp\\ProyectoRobert\\ChimalliStore.Api\\ChimalliStore.Api\\ChimalliStore.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\devig\\OneDrive\\Documentos\\Robert\\ChimalliStore.Api\\ChimalliStore.Api\\ChimalliStore.Api.csproj",
+        "projectUniqueName": "C:\\Users\\rob\\Documents\\Cursos\\C Sharp\\ProyectoRobert\\ChimalliStore.Api\\ChimalliStore.Api\\ChimalliStore.Api.csproj",
         "projectName": "ChimalliStore.Api",
-        "projectPath": "C:\\Users\\devig\\OneDrive\\Documentos\\Robert\\ChimalliStore.Api\\ChimalliStore.Api\\ChimalliStore.Api.csproj",
-        "packagesPath": "C:\\Users\\devig\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\devig\\OneDrive\\Documentos\\Robert\\ChimalliStore.Api\\ChimalliStore.Api\\obj\\",
+        "projectPath": "C:\\Users\\rob\\Documents\\Cursos\\C Sharp\\ProyectoRobert\\ChimalliStore.Api\\ChimalliStore.Api\\ChimalliStore.Api.csproj",
+        "packagesPath": "C:\\Users\\rob\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rob\\Documents\\Cursos\\C Sharp\\ProyectoRobert\\ChimalliStore.Api\\ChimalliStore.Api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\devig\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\rob\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.11, )"

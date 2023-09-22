@@ -19,6 +19,8 @@ public partial class User
 
     public int? ObjectStatusId { get; set; }
 
+    public string? Password { get; set; }
+
     public virtual ICollection<Address> Addresses { get; set; } = new List<Address>();
 
     public virtual Person Person { get; set; } = null!;

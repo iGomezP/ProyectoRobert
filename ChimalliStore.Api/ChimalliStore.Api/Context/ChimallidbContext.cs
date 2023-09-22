@@ -304,6 +304,10 @@ public partial class ChimallidbContext : DbContext
                 .IsUnicode(false)
                 .HasColumnName("email");
             entity.Property(e => e.ObjectStatusId).HasColumnName("objectStatusId");
+            entity.Property(e => e.Password)
+                .HasMaxLength(200)
+                .IsUnicode(false)
+                .HasColumnName("password");
             entity.Property(e => e.PersonId).HasColumnName("personId");
             entity.Property(e => e.UpdatedAt)
                 .HasColumnType("datetime")
