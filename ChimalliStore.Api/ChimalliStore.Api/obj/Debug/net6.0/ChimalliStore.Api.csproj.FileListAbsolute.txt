@@ -893,3 +893,4 @@ C:\Users\rob\Documents\Cursos\C Sharp\ProyectoRobert\ChimalliStore.Api\ChimalliS
 C:\Users\rob\Documents\Cursos\C Sharp\ProyectoRobert\ChimalliStore.Api\ChimalliStore.Api\bin\Debug\net6.0\Serilog.Sinks.Console.dll
 C:\Users\rob\Documents\Cursos\C Sharp\ProyectoRobert\ChimalliStore.Api\ChimalliStore.Api\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
 C:\Users\rob\Documents\Cursos\C Sharp\ProyectoRobert\ChimalliStore.Api\ChimalliStore.Api\bin\Debug\net6.0\Serilog.Sinks.File.dll
+C:\Users\rob\Documents\Cursos\C Sharp\ProyectoRobert\ChimalliStore.Api\ChimalliStore.Api\bin\Debug\net6.0\AutoMapper.dll

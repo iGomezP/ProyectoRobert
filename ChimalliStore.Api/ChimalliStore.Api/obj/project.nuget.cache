@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "rdN2BbIq2laPpzqod0Rn4rdiyEVWhJ8iHGSL6UZrsOIzfupXBMMZQA/jlqAYecTipStLZTkORJJvY9RdgFtfhQ==",
+  "dgSpecHash": "uwYkD9i+7fHho7zvJ5pijuCNZjqsm5lWZGir1R9I4SmZfsXIrL+Z3liRSIoQ0K2G6xNpZaLV6f3CF7CwIgA5iw==",
   "success": true,
   "projectFilePath": "C:\\Users\\rob\\Documents\\Cursos\\C Sharp\\ProyectoRobert\\ChimalliStore.Api\\ChimalliStore.Api\\ChimalliStore.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\rob\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\rob\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\rob\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\rob\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
@@ -74,7 +75,7 @@
     "C:\\Users\\rob\\.nuget\\packages\\microsoft.codeanalysis.razor\\6.0.0\\microsoft.codeanalysis.razor.6.0.0.nupkg.sha512",
     "C:\\Users\\rob\\.nuget\\packages\\microsoft.codeanalysis.scripting.common\\4.0.0\\microsoft.codeanalysis.scripting.common.4.0.0.nupkg.sha512",
     "C:\\Users\\rob\\.nuget\\packages\\microsoft.codeanalysis.workspaces.common\\4.0.0\\microsoft.codeanalysis.workspaces.common.4.0.0.nupkg.sha512",
-    "C:\\Users\\rob\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\rob\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\rob\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",
     "C:\\Users\\rob\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.1.0\\microsoft.data.sqlclient.sni.runtime.5.1.0.nupkg.sha512",
     "C:\\Users\\rob\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.21\\microsoft.data.sqlite.core.6.0.21.nupkg.sha512",
