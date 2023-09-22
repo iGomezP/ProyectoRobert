@@ -881,3 +881,15 @@ C:\Users\rob\Documents\Cursos\C Sharp\ProyectoRobert\ChimalliStore.Api\ChimalliS
 C:\Users\rob\Documents\Cursos\C Sharp\ProyectoRobert\ChimalliStore.Api\ChimalliStore.Api\obj\Debug\net6.0\ChimalliStore.Api.genruntimeconfig.cache
 C:\Users\rob\Documents\Cursos\C Sharp\ProyectoRobert\ChimalliStore.Api\ChimalliStore.Api\obj\Debug\net6.0\ref\ChimalliStore.Api.dll
 C:\Users\rob\Documents\Cursos\C Sharp\ProyectoRobert\ChimalliStore.Api\ChimalliStore.Api\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Users\rob\Documents\Cursos\C Sharp\ProyectoRobert\ChimalliStore.Api\ChimalliStore.Api\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\rob\Documents\Cursos\C Sharp\ProyectoRobert\ChimalliStore.Api\ChimalliStore.Api\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\rob\Documents\Cursos\C Sharp\ProyectoRobert\ChimalliStore.Api\ChimalliStore.Api\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\rob\Documents\Cursos\C Sharp\ProyectoRobert\ChimalliStore.Api\ChimalliStore.Api\bin\Debug\net6.0\Serilog.dll
+C:\Users\rob\Documents\Cursos\C Sharp\ProyectoRobert\ChimalliStore.Api\ChimalliStore.Api\bin\Debug\net6.0\Serilog.AspNetCore.dll
+C:\Users\rob\Documents\Cursos\C Sharp\ProyectoRobert\ChimalliStore.Api\ChimalliStore.Api\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+C:\Users\rob\Documents\Cursos\C Sharp\ProyectoRobert\ChimalliStore.Api\ChimalliStore.Api\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\Users\rob\Documents\Cursos\C Sharp\ProyectoRobert\ChimalliStore.Api\ChimalliStore.Api\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+C:\Users\rob\Documents\Cursos\C Sharp\ProyectoRobert\ChimalliStore.Api\ChimalliStore.Api\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+C:\Users\rob\Documents\Cursos\C Sharp\ProyectoRobert\ChimalliStore.Api\ChimalliStore.Api\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+C:\Users\rob\Documents\Cursos\C Sharp\ProyectoRobert\ChimalliStore.Api\ChimalliStore.Api\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+C:\Users\rob\Documents\Cursos\C Sharp\ProyectoRobert\ChimalliStore.Api\ChimalliStore.Api\bin\Debug\net6.0\Serilog.Sinks.File.dll
